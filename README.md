@@ -80,8 +80,9 @@ And just in case somebody is lost, you have to aggregate plugin the cex plugin, 
 -------
 
 Second and last way of using koiVM is by adding yourself attributes to the method you wish to protect:
+
 "[Obfuscation(Exclude = false, Feature = "+koi;-ctrl flow")]"
 -------
 
-If you're wondering the reason of -ctrl flow, please check the list of limited functions koi might have currently.
-Thats it for now, I will try to make a better README the following days.
+If you're wondering the reason of -ctrl flow, please check the list of limited functions koi might have currently. Moving on, I'd like to remember that you will have to aggregate koiVM as a plugin in order to get the virtualization.
+
