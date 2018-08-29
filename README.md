@@ -41,7 +41,7 @@ Credits
 Members of **[Black Storm Forum](http://board.b-at-s.info/)** for their help!
 
 # KoiVM
-========
+
 Is a virtual machine made to work on ConfuserEx, it turns the .NET opcodes into new ones that only are understood by our machine.
 There are multiple ways of using the plugin, first one is certainly ridiculous as it will "merge" with cex and virtualize every single method, including protections from ConfuserEX, however note that this might KILL your performance.
 Second one will just virtualize the methods that you decide, this is the best option in all if not all the cases.
@@ -56,7 +56,8 @@ Now, I will procceed to list all the limitations that you might find while using
 ... And thats basically it, thats the price you pay for this heavy protection.
 
 
-* How to use KoiVm?
+How to use KoiVm?
+-------
 Like I stated before, there are two ways of applying this protection, if you want to use the first method just make a cex project file and aggregate the following text:
 <protection id="koi" />
 That will execute the protection on the whole assembly, here you can see the parameters that you have available:
