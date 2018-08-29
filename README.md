@@ -59,7 +59,8 @@ Now, I will procceed to list all the limitations that you might find while using
 How to use KoiVm?
 -------
 Like I stated before, there are two ways of applying this protection, if you want to use the first method just make a cex project file and aggregate the following text:
-"<protection id="koi" />"
+<protection id="koi" />
+-------
 That will execute the protection on the whole assembly, here you can see the parameters that you have available:
 
 rtName:
@@ -75,10 +76,13 @@ stackwalk:
 Indicates the exception stack trace generated should be complete. Only valid on module.
 
 And just in case somebody is lost, you have to aggregate plugin the cex plugin, in order to do that aggregate this at the end of the configuration:
-  "<plugin>C:\KoiVM.Confuser.exe</plugin>"
+
+<plugin>C:\KoiVM.Confuser.exe</plugin>
+-------
 
 Second and last way of using koiVM is by adding yourself attributes to the method you wish to protect:
 "[Obfuscation(Exclude = false, Feature = "+koi;-ctrl flow")]"
+-------
 
 If you're wondering the reason of -ctrl flow, please check the list of limited functions koi might have currently.
 Thats it for now, I will try to make a better README the following days.
