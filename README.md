@@ -78,4 +78,4 @@ Second and last way of using koiVM is by adding yourself attributes to the metho
 
 "[Obfuscation(Exclude = false, Feature = "+koi;-ctrl flow")]"
 
-If you're wondering the reason of -ctrl flow, please check the list of limited functions koi might have currently. Moving on, I'd like to remember that you will have to aggregate koiVM as a plugin in order to get the virtualization. I also recommend using confuserex CLI and not the GUI, as this one might limit the strength of the protection.
+If you're wondering the reason of -ctrl flow, please check the list of limited functions koi might have currently. Moving on, I'd like to remember that you will have to aggregate koiVM as a plugin in order to get the virtualization running. I also recommend using confuserex CLI and not the GUI, as this one might limit the strength of the protection.
