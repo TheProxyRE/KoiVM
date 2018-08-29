@@ -58,10 +58,9 @@ Now, I will procceed to list all the limitations that you might find while using
 
 How to use KoiVm?
 -------
-Like I stated before, there are two ways of applying this protection, if you want to use the first method just make a cex project file and aggregate the following text:
-<protection id="koi" />
--------
-That will execute the protection on the whole assembly, here you can see the parameters that you have available:
+Like I stated before, there are two ways of applying this protection, if you want to use the first method just make a cex project file and aggregate the following text that can be found on official KoiVM page: https://ki-host.appspot.com/KoiVM/documentation.html
+
+This project will execute the protection on the whole assembly, here you can see the parameters that you have available:
 
 rtName:
 Indicates the assembly name of the runtime library. Only valid on module.
